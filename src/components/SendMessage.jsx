@@ -21,7 +21,7 @@ const SendMessage = () => {
         name: displayName,
         avatar: photoURL,
         createdAt: serverTimestamp(),
-        uid: uid 
+        uid: uid
       });
       setValue("");
     } catch (error) {
